@@ -1,0 +1,46 @@
+/* Mobile */
+
+
+
+    .container {
+        width: 100%;
+
+        background-color: var(--dark-color);
+        color: var(--bright-color);
+    }
+
+
+    header{
+        height: 50px;
+        max-width: 1280px;
+        display: flex;
+        padding: 0 15px;
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    .logo-ul{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .header-links-ul{
+        width: 50%;
+
+        display: flex;
+        gap:15px;
+        justify-content: flex-end;
+        align-items:center;
+    }
+
+    a{
+        color:var(--bright-color);
+        transition: 200ms;
+    }
+    a:hover{
+        color:var(--light-green-color);
+        transition: 200ms;
+    }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duomenu atvaizdavimas</title>
+    <link rel="stylesheet" href="../styles/resets.css">
+    <link rel="stylesheet" href="../styles/utilities.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="../scripts/script.js" defer></script>
+    <script src="../scripts/functions.js" defer></script>
+
+
+<body>
+
+</body>
+<div class="wrapper">
+    <div class="container">
+        <header>
+            <ul class="logo-ul">
+                <div class="logo" alt="logo">LOGO</div>
+            </ul>
+            <ul class="header-links-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <main>
+        <div class="search-bar-wrapper">
+            <button class="new-post" id="new-post">New post</button>
+            <select name="search-by" id="search-by">
+                <option value="userId">User ID</option>
+                <option value="id">Post ID</option>
+                <option value="title">Post Title</option>
+            </select>
+            <div class="search-bar-container">
+                <input type="number" name="search" id="search-bar" title="Search">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+
+        <div class="list">
+            <table id="table">
+
+                <tr>
+                    <th>User ID</th>
+                    <th>Post ID</th>
+                    <th>Post title</th>
+                    <th>Post body</th>
+                </tr>
+
+            </table>
+
+            <div id="place-holder"></div>
+        </div>
+    </main>
+
+    <div>
+        <footer></footer>
+    </div>
+</div>
+
+</html>

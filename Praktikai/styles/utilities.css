@@ -1,0 +1,24 @@
+:root{
+    /* Color scheme */
+    --darker-color: rgba(0, 0, 0, 0.925);
+    --dark-color: #454851;
+    --bright-color:#FCEFF9;
+
+    --dark-green-color: #73956F;
+    --green-color: #7BAE7F;
+    --light-green-color: #95D7AE;
+
+    /* Font sizes */
+    --xsmall-font: 0.5em;
+    --small-font: 0.75em;
+    --medium-font: 1em;
+    --large-font: 1.5em;
+    --xlarge-font: 1.75em;
+}
+
+.disabled{
+    display: none;
+}
+
+
+
